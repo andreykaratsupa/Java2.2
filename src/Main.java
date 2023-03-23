@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 200;
+        int first = 200;
         //исходная
-        int y = 1000;
+        int put = 1000;
         //пополнение
-        int bonus = y >= 1000 ? y / 100 : 0;
-        int z = x + y + bonus;
+        int bonus = put >= 1000 ? put / 100 : 0;
+        int summary = first + put + bonus;
 
-        System.out.println("Итоговый счет: " + z);
+        System.out.println("Итоговый счет: " + summary);
         System.out.println("Бонус: " + bonus);
     }
 }
